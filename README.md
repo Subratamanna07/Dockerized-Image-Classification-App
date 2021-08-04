@@ -10,7 +10,8 @@
 	- docker ps
 	- // Find out the id of model server and use that below
 	- docker exec -it 86035cfc3daa python test_client.py
-	- docker exec -it 33da6cdbff55 bash
+	- // Or you can get the shell inside the docker container as follows
+	- docker exec -it 86035cfc3daa bash
 
 # Dockerized-Image-Classification-App
 
