@@ -1,3 +1,12 @@
+# Follow these instructions to launch it:
+
+- git clone https://github.com/cloudxl
+- cd Dockerized-Image-Classification-A
+- docker-compose  build
+- docker-compose up
+- Open http://e.cloudxlab.com:4114
+- 
+
 # Dockerized-Image-Classification-App
 
 This is the dockerized verion of the project 
