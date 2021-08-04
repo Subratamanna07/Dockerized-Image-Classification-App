@@ -8,7 +8,7 @@ services:
             dockerfile: Dockerfile
         # Map local machine's 8000 port to container's port 4114
         ports:
-            - "8000:4114"
+            - "4114:4114"
         # Volumes
         volumes:
             # Map local-machine-folder:container-folder
@@ -21,7 +21,7 @@ services:
             dockerfile: Dockerfile
         # Map local machine's 8000 port to container's port 3000
         ports:
-            - "5576:5576"
+            - "4115:5576"
         # Volumes
         volumes:
             # Map local-machine-folder:container-folder

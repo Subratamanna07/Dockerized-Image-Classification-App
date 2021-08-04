@@ -36,5 +36,5 @@ def test_zmq_embdserver(image_file_name):
     context.term()
 
 if __name__ == "__main__":
-    name = '/cxldata/projects/image-class/dog.png'
+    name = 'dog.png'
     test_zmq_embdserver(name)
